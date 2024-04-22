@@ -30,7 +30,6 @@ export default class MockData2WebpartWebPart extends BaseClientSideWebPart<IMock
         <li>${listItem.Title}</li>
         `;
       });
-    });
 
     this.domElement.innerHTML = `
       <div class="${styles.welcome}">
@@ -39,8 +38,10 @@ export default class MockData2WebpartWebPart extends BaseClientSideWebPart<IMock
           ${listItemsStr}
         </li>
       </ul>
+      </div>
       `;
-  };
+  });
+}
 
   private _getMockListData(): Promise<myListItem[]> {
     return MockClient.get("")
