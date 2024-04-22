@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "mock-data-2-client-side-solution",
+    "id": "f512dc80-19e5-436a-a06e-7110986cccc5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "mockData2 description"
+      },
+      "longDescription": {
+        "default": "mockData2 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "mock-data-2 Feature",
+        "description": "The feature that activates elements of the mock-data-2 solution.",
+        "id": "8a3bc6ca-5198-4325-94c2-f25ba1111f42",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/mock-data-2.sppkg"
+  }
+}
